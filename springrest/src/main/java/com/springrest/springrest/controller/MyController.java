@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.springrest.springrest.entities.Course;
 import com.springrest.springrest.services.CourseService;
 
-@CrossOrigin( origins = "http://localhost:3000")
+@CrossOrigin( origins = "https://course-rajmore001.firebaseapp.com")
 @RestController
 public class MyController {
 	
